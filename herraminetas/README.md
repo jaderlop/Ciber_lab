@@ -6,3 +6,5 @@
 - `mini-ips/` – Detector de patrones anómalos de red
 - `ticketing-system/` – Sistema web de registro de incidentes
 - `edr-lite/` – Identificación y respuesta a amenazas básicas
+
+- JL 🕸️🕷️
