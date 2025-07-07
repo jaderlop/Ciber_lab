@@ -52,3 +52,5 @@ Proyectos de hacking etico
 98) Code injection explotis for shellcode execution
 99) zero day vulnerability research
 100) End-to-End pentenst simulation
+
+101) JL 🕸️🕷️
