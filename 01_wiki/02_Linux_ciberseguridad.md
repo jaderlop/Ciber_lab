@@ -36,6 +36,7 @@
 - [Comandos utiles](#comandos-utiles)
 - [Atajos en linux](#editores-de-texto-desde-la-terminal)
 - [Alias en linux](#alias-en-linux)
+- [Bibliografia de comandos](#bibliografia-de-comandos)
 - [Nota](#nota)
 
 ## Que es un sistema operativo?
@@ -668,12 +669,36 @@ Es una forma de ejecutar comandos o funciones personalizadas o ya establecidas a
 - **alias comando=funcion** = craecion y registro de alias
 - **unalias** = elimina el alias en cuestion
 
+----------------------------------------------------------------------------------------------------------
+# Bibliografia de comandos
+
+**Introduccion** = https://manpages.ubuntu.com/manpages/noble/man1/intro.1.html
+
+¿Mas usos del ssh?
+conexion ssh
+ssh <username>@<server> -p <port>
+**cat**: para leer nombres que empiecen con - hay que usar le -- para que cat no espere mas opciones de comando
+
+los directorios o ficheros que tienen espacio en su nombre pueden ser remplazado por \ para que puedan se rinterpretados o dentro de comillas
+**file**: me indica que tipo de archivo tengo y que hay en su interior
+**du**: (disk usage) Info de el tamaño de un fichero o directorio que ocupa en nuestro sistema
+**df**: (disk free)informacion de las partciones que tiene nuestro sistema y estado de memoria
+**find** ***find <directory_path> <search_parameter>*** inicia una busqueda recursiba en la jerarquia de directorios
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------
 ## Nota
 
 🧰 Este documento esta en constante acutalizacion, esta basado en mi propio proceso de aprendizaje como hacker Ético, y administrador de sitemas Linux. por favor si ves algun error o tienes alguna sugerencia, me encantara leer tu comentario
 
 - JL 🕸️🕷️
-
 
 
 

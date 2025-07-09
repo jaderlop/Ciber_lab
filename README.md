@@ -1,6 +1,6 @@
 # 💻🕷️🌐 Ciber Lab 
 
-Hola en este lugar se recopila informacion acerca de mi aprendizaje, reots, herramientas y proyectos de hacking Ético y seguridad informatica.
+Hola en este lugar se recopila informacion acerca de mi aprendizaje, retos, herramientas y proyectos de hacking Ético y seguridad informatica.
 
 ## 📂 Estructura
 
