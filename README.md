@@ -4,16 +4,16 @@ Hola en este lugar se recopila informacion acerca de mi aprendizaje, retos, herr
 
 ## 📂 Estructura
 
-- 🗒️ [`01_wiki/`](./01_wiki)  
+- 🗒️ [`01_iki/`](./01_Wiki)  
   Documentacion tecnica sobre Linux, Python, redes, hacking, ISO 27001 y mas.
 
-- 💥 [`retos_hacker_100/`](./retos_hacker_100)  
+- 💥 [`retos_hacker_100/`](./Retos_hacker_100)  
   100 retos practicos ofensivos (port scanning, ARP spoofing, keyloggers, SQLi, etc.)
 
-- 🌐 [`plataformas_ctf/`](./plataformas_ctf)  
+- 🌐 [`plataformas_ctf/`](./Plataformas_ctf)  
   Writeups y soluciones de plataformas como TryHackMe, OverTheWire, HackTheBox.
 
-- 🧰 [`herramientas/`](./herramientas)  
+- 🧰 [`herramientas/`](./Herramientas)  
   Proyectos como un escaner de vulnerabilidades, IPS, EDR o sistemas de ticketing.
 
 🛠️ **Estado:** En constante desarrollo

@@ -1,0 +1,2 @@
+## Que es Wireshark
+Herramienta horeintada al snigfin de red, asociada al hacking etico, su pricnipal obejtivo es lmonitorizar el trafico, capturando los paquetes que viajan a traves de una red, viendo la direccion ip, protocolos
