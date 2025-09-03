@@ -87,5 +87,3 @@ Cada ataque está estructurado con:
 - 💥 Consecuencia: Divulgación no autorizada de credenciales o acceso físico.
 - 🎯 Objetivo: Comprometer sistemas sin técnicas técnicas.
 
-## 17. Pivoting
-- 🧪 Método: Uso de una máquina comprometida como p

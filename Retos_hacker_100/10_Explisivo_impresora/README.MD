@@ -52,3 +52,5 @@ admin/config.html
 print/
 jobs/
 network/
+
+uso de gobuster - u

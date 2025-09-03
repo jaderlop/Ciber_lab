@@ -41,7 +41,7 @@
 
 ## Que es un sistema operativo?
 
-Un sistema operativo o SO, es un conjunto de programas que gestionan los recursos de hardaware como la memori, el procesador los dispositovos de entrada y de salida. (de esto se encarga el kernel que viene a ser como el motor y esqueleto de un automovil lo que permite que todo funcione por dentro) el sistema operativo completo ademas del kernel, inclye los comandos, interfaces graficas, bibliotecas para hacer mas amigable lainteraccion con una maquina (el sistema operativo vien a se le volante, sillon, espejos y grenos de nuestro vehiculo permitiendo usarlo de forma comoda y controlada)
+Un sistema operativo o SO, es un conjunto de programas que gestionan los recursos de hardaware como la memoria, el procesador los dispositivos de entrada y de salida. (de esto se encarga el kernel que viene a ser como el motor y esqueleto de un automovil lo que permite que todo funcione por dentro) el sistema operativo completo ademas del kernel, incluye los comandos, interfaces graficas, bibliotecas para hacer mas amigable la interaccion con una maquina (el sistema operativo vien a se le volante, sillon, espejos y frenos de nuestro vehiculo permitiendo usarlo de forma comoda y controlada)
 
 ## Que es el codigo abierto?
 
@@ -59,17 +59,17 @@ Una distribucion o distro es un conjunto de software especifico, incluido el sis
 
 ## Distribuciones basadas en otras
 
-Si ya existe la rueda ¿para que re inventarla? lo mejor es usarla y mejorarla, con este pensamiento se parte de distribuciones base como (Debian o Ubuntu y se empiezan agregar o quitar funciones segun las necesidades del proyecto) gracias a esto existe una bifurcacion de distribuciones basadas en distros ya creadas que se adaptan a diferentes necesidades, educativos, empresariales, hacking, de rendimiento, etc.
+Si ya existe la rueda ¿para que reinventarla? lo mejor es usarla y mejorarla, con este pensamiento se parte de distribuciones base como (Debian o Ubuntu y se empiezan agregar o quitar funciones segun las necesidades del proyecto) gracias a esto existe una bifurcacion de distribuciones basadas en distros ya creadas que se adaptan a diferentes necesidades, educativos, empresariales, hacking, de rendimiento, etc.
 
 ## Estructura de linux
 
-La estructura de linux se basa en una estructura gerarquica partiendo desde la raiz, en esta estructura todo se representa como un fichero desde: los archivos, los documentos, los dispositivos y procesos. ***Los ficheros almacena datos o configuraciones que influyen directamente en el comportamiento del sistema***. Los ficheros se pueden organizar en particiones, cada uno con su propio sistema de archivos
+La estructura de linux se basa en una estructura gerarquica partiendo desde la raiz, en esta estructura todo se representa como un fichero desde: los archivos, los documentos, los dispositivos y procesos. ***Los ficheros almacenan datos o configuraciones que influyen directamente en el comportamiento del sistema***. Los ficheros se pueden organizar en particiones, cada uno con su propio sistema de archivos
 
 ## Componentes del sistema de ficheros
 
 En el nucleo del sistema de ficheros estan los INODOS, BLOQUES y SUPER BLOQUES
 
-- **INODOS** = Guarda informacion o metadatos de un fichero como permisos, propietarios o tamaño que ocupa (no almacena el nombre del archivo solo su informacion) si los inodos no tienen referencia se pueden usar para guardar informacion de forma oculta no infalible ***inodos huerfanos***
+- **INODOS** = Guarda informacion o metadatos de un fichero como permisos, propietarios o tamaño que ocupa (no almacena el nombre del archivo solo su informacion) si los inodos no tienen referencia se pueden usar para guardar informacion de forma oculta esto no es infalible se le conoce como ***inodos huerfanos***
 
 - **BLOQUES** = Unidades de datos donde se guarda la informacion de los ficheros, donde se relacionan el nombre del fichero y numero de direccion del inodo (para saber a nivel de sistema que fichero esta dentro de que directorio)
 
@@ -81,7 +81,7 @@ En el nucleo del sistema de ficheros estan los INODOS, BLOQUES y SUPER BLOQUES
 - *Directorio == Carpeta*
 - **Enlace duro(hard link)**: Referencia adicional al inodo de un archivo existente (Es muy util porque puedo acceder a un archivo desde una carpeta diferente)
 
-- **Enalce blando(soft link)**: Referencia a una ruta o un fichero (Como un acceso directo una o una referencia a la ruta de otro archivo)
+- **Enalce blando(soft link)**: Referencia a una ruta o un fichero (Como un acceso directo o una referencia a la ruta de otro archivo)
 
 **PERMISOS:** Los permisos en linux se dividen en tres: 
 - lectura(read): Ver contenido
@@ -100,18 +100,18 @@ Se pueden asignar estos permisos a tres tipos de usuarios dentro del sistema.
 ***- The quieter you become, the more you are able to hear*** 
 
 ## ¿Que es un comando?
-Son instrucciones que es usuario envia al sistema operativo atraves de una shell, las cuales generalmente ejecutan un programa o una funcion interna, estos tambien pueden incluir argumento
+Son instrucciones que el usuario envia al sistema operativo atraves de una shell, las cuales generalmente ejecutan un programa o una funcion interna, estos tambien pueden incluir argumentos
 
 ## Shell vs emulador de terminal
-**Emulador de terminal:** Interfaz grafiaca que permite la entrada y salida de texto, y sirve como entorno donde se ejecuta una shell
+**Emulador de terminal:** Interfaz grafica que permite la entrada y salida de texto, y sirve como entorno donde se ejecuta una shell
 
 **Shell:** Interprete de los comandos que el usarion envia para que el sistema opertivo las ejecute ya sea un fragmento de codigo o una funcion
 
 - sh(shell): Una de las primeras shell presente en casi todas las distribuciones.
-- bash(Bourne again shell): Ampliamente usada en GNUlinux, Permite hacer scripting avanzado
-- zsh: Shell moderna con autocompletado, resaltado y mayor interactividad
+- bash(Bourne again shell): Ampliamente usada en GNUlinux, Permite hacer scripting avanzado.
+- zsh: Shell moderna con autocompletado, resaltado y mayor interactividad.
 
-***El emulador de terminal el canal, La shell es el interprete, El sistema operativo es el ejecutor***
+***El emulador de terminal es el canal, La shell es el interprete, El sistema operativo es el ejecutor***
 
 ## Ficheros mas importantes en linux
 
