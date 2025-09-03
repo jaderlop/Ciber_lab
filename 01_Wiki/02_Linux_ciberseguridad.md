@@ -309,6 +309,10 @@ En linux, cada archivo o directorio tiene un conjunto de permisos que controlan 
 - **-** = Indica que es un fichero regular
 - **l** = Indica que es un enlace simbolico / blando
 - **d** = Indica que es un directorio
+- **b** = Indica archivo de dispositivo de bloques, representa hardawe que maneja datos en bloques
+- **c** = Indica que es un archiov de dispositivo de caracteres
+- **p** = FIFO(tuberia con nombre) cana especial para comunicacion entre procesos
+- **s** = Socket, es una comunicacion entre porcesos o red
 
 **interpretacion de los permisos de cada grupo**
 Apartir del primer caracter cada grupo se representa en conjuntos de 3, cada caracter puede ser
